@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="@string/details"
+        android:id="@+id/details"
+        android:icon="@drawable/baseline_person_24"/>
+    <item android:title="@string/login"
+        android:id="@+id/login"
+        android:icon="@drawable/baseline_vpn_key_24"/>
+</menu>

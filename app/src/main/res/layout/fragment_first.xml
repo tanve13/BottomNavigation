@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/sp_20"
+    tools:context=".FirstFragment">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/enter_your_details"
+    android:textSize="@dimen/sp_50"
+    android:textAlignment="center"
+    android:id="@+id/detail"
+    android:drawableTop="@drawable/baseline_person_24"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail"
+        android:layout_margin="@dimen/sp_50"
+        android:textAlignment="center"
+        android:text="@string/hello"
+        android:textSize="@dimen/sp_40"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
