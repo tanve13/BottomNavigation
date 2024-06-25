@@ -39,7 +39,7 @@
         android:textStyle="bold"
         android:textSize="@dimen/sp_20"
         android:layout_marginTop="@dimen/sp_30"
-        android:layout_marginLeft="@dimen/sp_40"/>
+        android:layout_marginLeft="@dimen/sp_30"/>
     </LinearLayout>
 
 </LinearLayout>

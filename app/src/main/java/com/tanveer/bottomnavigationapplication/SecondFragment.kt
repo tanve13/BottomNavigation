@@ -30,7 +30,6 @@ class SecondFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -38,7 +37,6 @@ class SecondFragment : Fragment() {
         // Inflate the layout for this fragment
         return binding?.root
     }
-
     companion object {
         /**
          * Use this factory method to create a new instance of
